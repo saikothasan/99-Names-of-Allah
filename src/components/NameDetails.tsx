@@ -6,7 +6,7 @@ import { names } from "@/lib/names"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { motion } from "framer-motion"
 
-const amiri = Amiri({ subsets: ["arabic"] })
+const amiri = Amiri({ subsets: ["arabic"], weight: ["400", "700"] })
 const notoSansBengali = Noto_Sans_Bengali({ subsets: ["bengali"] })
 
 export default function NameDetails() {
