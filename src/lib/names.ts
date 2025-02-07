@@ -184,8 +184,8 @@ export const names = [
   {
     number: 27,
     arabic: 'ٱلسَّمِيعُ',
-    bangla: 'আস-সামী'',
-    transliteration: 'As-Sami'',
+    bangla: 'আস-সামী',
+    transliteration: 'As-Sami',
     meaning: 'The All-Hearing',
   },
   {
