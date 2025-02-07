@@ -1,5 +1,7 @@
 import PrayerTimes from "@/components/PrayerTimes"
 
+export const runtime = "edge"
+
 export default function PrayerTimesPage() {
   return (
     <div className="max-w-2xl mx-auto">
