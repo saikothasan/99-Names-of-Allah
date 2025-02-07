@@ -1,6 +1,8 @@
 import NamesList from "@/components/NamesList"
 import NameOfTheDay from "@/components/NameOfTheDay"
 
+export const runtime = "edge"
+
 export default function Home() {
   return (
     <div className="space-y-12">
