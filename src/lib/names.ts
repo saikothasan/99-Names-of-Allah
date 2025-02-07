@@ -611,8 +611,8 @@ export const names = [
   {
     number: 88,
     arabic: 'ٱلْجَامِعُ',
-    bangla: 'আল-জামি'',
-    transliteration: 'Al-Jami'',
+    bangla: 'আল-জামি',
+    transliteration: 'Al-Jami',
     meaning: 'The Gatherer, the Unifier',
   },
   {
@@ -632,8 +632,8 @@ export const names = [
   {
     number: 91,
     arabic: 'ٱلْمَانِعُ',
-    bangla: 'আল-মানি'',
-    transliteration: 'Al-Mani'',
+    bangla: 'আল-মানি',
+    transliteration: 'Al-Mani',
     meaning: 'The Withholder, The Shielder, The Defender',
   },
   {
@@ -646,8 +646,8 @@ export const names = [
   {
     number: 93,
     arabic: 'ٱلنَّافِعُ',
-    bangla: 'আন-নাফি'',
-    transliteration: 'An-Nafi'',
+    bangla: 'আন-নাফি',
+    transliteration: 'An-Nafi',
     meaning: 'The Propitious, The Benefactor',
   },
   {
@@ -667,8 +667,8 @@ export const names = [
   {
     number: 96,
     arabic: 'ٱلْبَدِيعُ',
-    bangla: 'আল-বাদী'',
-    transliteration: 'Al-Badi'',
+    bangla: 'আল-বাদী',
+    transliteration: 'Al-Badi',
     meaning: 'The Incomparable, The Originator',
   },
   {
