@@ -163,8 +163,8 @@ export const names = [
   {
     number: 24,
     arabic: 'ٱلرَّافِعُ',
-    bangla: 'আর-রাফি'',
-    transliteration: 'Ar-Rafi'',
+    bangla: 'আর-রাফি',
+    transliteration: 'Ar-Rafi',
     meaning: 'The Exalter',
   },
   {
@@ -317,8 +317,8 @@ export const names = [
   {
     number: 46,
     arabic: 'ٱلْوَاسِعُ',
-    bangla: 'আল-ওয়াসি'',
-    transliteration: 'Al-Wasi'',
+    bangla: 'আল-ওয়াসি',
+    transliteration: 'Al-Wasi',
     meaning: 'The All-Comprehending',
   },
   {
