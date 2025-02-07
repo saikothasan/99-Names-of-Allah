@@ -44,8 +44,8 @@ export const names = [
   {
     number: 7,
     arabic: 'ٱلْمُؤْمِنُ',
-    bangla: 'আল-মু'মিন',
-    transliteration: 'Al-Mu'min',
+    bangla: 'আল-মুমিন',
+    transliteration: 'Al-Mumin',
     meaning: 'The Guarantor',
   },
   {
@@ -135,8 +135,8 @@ export const names = [
   {
     number: 20,
     arabic: 'ٱلْعَلِيمُ',
-    bangla: 'আল-'আলীম',
-    transliteration: 'Al-'Alim',
+    bangla: 'আল-আলীম',
+    transliteration: 'Al-Alim',
     meaning: 'The All-Knowing',
   },
   {
@@ -170,8 +170,8 @@ export const names = [
   {
     number: 25,
     arabic: 'ٱلْمُعِزُّ',
-    bangla: 'আল-মু'ইজ',
-    transliteration: 'Al-Mu'izz',
+    bangla: 'আল-মুইজ',
+    transliteration: 'Al-Muizz',
     meaning: 'The Bestower of Honors',
   },
   {
@@ -205,8 +205,8 @@ export const names = [
   {
     number: 30,
     arabic: 'ٱلْعَدْلُ',
-    bangla: 'আল-'আদল',
-    transliteration: 'Al-'Adl',
+    bangla: 'আল-আদল',
+    transliteration: 'Al-Adl',
     meaning: 'The Just',
   },
   {
@@ -233,8 +233,8 @@ export const names = [
   {
     number: 34,
     arabic: 'ٱلْعَظِيمُ',
-    bangla: 'আল-'আজীম',
-    transliteration: 'Al-'Azim',
+    bangla: 'আল-আজীম',
+    transliteration: 'Al-Azim',
     meaning: 'The Magnificent',
   },
   {
@@ -254,8 +254,8 @@ export const names = [
   {
     number: 37,
     arabic: 'ٱلْعَلِيُّ',
-    bangla: 'আল-'আলী',
-    transliteration: 'Al-'Ali',
+    bangla: 'আল-আলী',
+    transliteration: 'Al-Ali',
     meaning: 'The Highest',
   },
   {
@@ -345,8 +345,8 @@ export const names = [
   {
     number: 50,
     arabic: 'ٱلْبَاعِثُ',
-    bangla: 'আল-বা'ইছ',
-    transliteration: 'Al-Ba'ith',
+    bangla: 'আল-বাইছ',
+    transliteration: 'Al-Baith',
     meaning: 'The Resurrector',
   },
   {
@@ -415,8 +415,8 @@ export const names = [
   {
     number: 60,
     arabic: 'ٱلْمُعِيدُ',
-    bangla: 'আল-মু'ইদ',
-    transliteration: 'Al-Mu'id',
+    bangla: 'আল-মুইদ',
+    transliteration: 'Al-Muid',
     meaning: 'The Reinstater Who Brings Back All',
   },
   {
@@ -507,7 +507,7 @@ export const names = [
     number: 73,
     arabic: 'ٱلْمُؤَخِّرُ',
     bangla: 'আল-মুআখখির',
-    transliteration: 'Al-Mu'akhkhir',
+    transliteration: 'Al-Muakhkhir',
     meaning: 'The Delayer, He who puts far away',
   },
   {
@@ -548,8 +548,8 @@ export const names = [
   {
     number: 79,
     arabic: 'ٱلْمُتَعَالِي',
-    bangla: 'আল-মুতা'আলী',
-    transliteration: 'Al-Muta'ali',
+    bangla: 'আল-মুতাআলী',
+    transliteration: 'Al-Mutaali',
     meaning: 'The Supreme One',
   },
   {
@@ -576,15 +576,15 @@ export const names = [
   {
     number: 83,
     arabic: 'ٱلْعَفُوُّ',
-    bangla: 'আল-'আফুওও',
-    transliteration: 'Al-'Afuww',
+    bangla: 'আল-আফুওও',
+    transliteration: 'Al-Afuww',
     meaning: 'The Pardoner, The Effacer of Sins',
   },
   {
     number: 84,
     arabic: 'ٱلرَّؤُفُ',
     bangla: 'আর-রাউফ',
-    transliteration: 'Ar-Ra'uf',
+    transliteration: 'Ar-Rauf',
     meaning: 'The Compassionate, The All Pitying',
   },
   {
