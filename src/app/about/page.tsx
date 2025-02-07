@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 
+export const runtime = "edge"
+
 export const metadata: Metadata = {
   title: "About Asma ul Husna | 99 Names of Allah",
   description: "Learn about the significance and importance of the 99 names of Allah (Asma ul Husna) in Islam.",
