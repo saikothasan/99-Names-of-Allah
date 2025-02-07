@@ -87,7 +87,7 @@ export const names = [
     number: 13,
     arabic: 'ٱلْبَارِئُ',
     bangla: 'আল-বারি',
-    transliteration: 'Al-Bari'',
+    transliteration: 'Al-Bari',
     meaning: 'The Maker of Order',
   },
   {
