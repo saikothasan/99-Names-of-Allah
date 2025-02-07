@@ -9,15 +9,33 @@ type PrayerTime = {
   time: string
 }
 
+type ApiResponse = {
+  code: number
+  status: string
+  data: {
+    timings: {
+      Fajr: string
+      Dhuhr: string
+      Asr: string
+      Maghrib: string
+      Isha: string
+    }
+  }
+}
+
 export default function PrayerTimes() {
   const [prayerTimes, setPrayerTimes] = useState<PrayerTime[]>([])
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
     const fetchPrayerTimes = async () => {
       try {
         const response = await fetch("https://api.aladhan.com/v1/timingsByCity?city=London&country=UK&method=2")
-        const data = await response.json()
+        if (!response.ok) {
+          throw new Error("Network response was not ok")
+        }
+        const data: ApiResponse = await response.json()
         const times = data.data.timings
         setPrayerTimes([
           { name: "Fajr", time: times.Fajr },
@@ -29,12 +47,23 @@ export default function PrayerTimes() {
         setLoading(false)
       } catch (error) {
         console.error("Error fetching prayer times:", error)
+        setError("Failed to load prayer times. Please try again later.")
         setLoading(false)
       }
     }
 
     fetchPrayerTimes()
   }, [])
+
+  if (error) {
+    return (
+      <Card className="bg-white dark:bg-gray-800">
+        <CardContent className="p-6">
+          <p className="text-red-500">{error}</p>
+        </CardContent>
+      </Card>
+    )
+  }
 
   return (
     <Card className="bg-white dark:bg-gray-800">
