@@ -31,7 +31,7 @@ export default function PrayerTimes() {
   useEffect(() => {
     const fetchPrayerTimes = async () => {
       try {
-        const response = await fetch("https://api.aladhan.com/v1/timingsByCity?city=London&country=UK&method=2")
+        const response = await fetch("https://api.aladhan.com/v1/timingsByCity?city=Dhaka&country=BD&method=2")
         if (!response.ok) {
           throw new Error("Network response was not ok")
         }
