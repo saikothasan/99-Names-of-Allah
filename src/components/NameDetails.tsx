@@ -1,3 +1,5 @@
+"use client"
+
 import { useParams } from "next/navigation"
 import { Amiri, Noto_Sans_Bengali } from "next/font/google"
 import { names } from "@/lib/names"
